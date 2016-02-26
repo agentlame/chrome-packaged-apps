@@ -1,0 +1,22 @@
+{
+  "name": "irccloud packaged app",
+  "description": "irccloud app for Chrome.",
+  "version": "1",
+  "manifest_version": 2,
+  "app": {
+    "urls": [
+      "*://*.irccloud.com",
+      "*://www.irccloud.com"
+    ],
+    "launch": {
+      "web_url": "http://www.irccloud.com/"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}

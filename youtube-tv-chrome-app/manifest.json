@@ -1,0 +1,22 @@
+{
+  "name": "TV mode for YouTube",
+  "description": "Packaged app for youtube.com/tv",
+  "version": "1",
+  "manifest_version": 2,
+  "app": {
+    "urls": [
+      "*://*.youtube.com",
+      "*://www.youtube.com"
+    ],
+    "launch": {
+      "web_url": "http://www.youtube.com/tv"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}

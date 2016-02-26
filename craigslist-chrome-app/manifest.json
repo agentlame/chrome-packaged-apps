@@ -1,0 +1,22 @@
+{
+  "name": "craigslist packaged app",
+  "description": "craigslist app for Chrome.",
+  "version": "1",
+  "manifest_version": 2,
+  "app": {
+    "urls": [
+      "*://*.craigslist.com",
+      "*://www.irccloud.com"
+    ],
+    "launch": {
+      "web_url": "http://www.craigslist.com/"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}
