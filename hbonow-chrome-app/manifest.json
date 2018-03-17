@@ -1,0 +1,22 @@
+{
+  "name": "HBONow",
+  "description": "Packaged app for HBONow",
+  "version": "1",
+  "manifest_version": 2,
+  "app": {
+    "urls": [
+      "*://*.hbonow.com",
+      "*://www.hbonow.com"
+    ],
+    "launch": {
+      "web_url": "https://play.hbonow.com"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}
